@@ -14,10 +14,10 @@ const Hero: React.FC = () => {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-4">
-        <img src="/images/cons14.jpeg" loading="lazy" className="rounded-2xl h-56 object-cover w-full" alt="project sample" />
-        <img src="/images/cons15.jpg" loading="lazy" className="rounded-2xl h-56 object-cover w-full" alt="project sample" />
-        <img src="/images/office.jpg" loading="lazy" className="rounded-2xl h-56 object-cover w-full" alt="project sample" />
-        <img src="/images/cons16.jpg" loading="lazy" className="rounded-2xl h-56 object-cover w-full" alt="project sample" />
+        <img src="./images/cons14.jpeg" loading="lazy" className="rounded-2xl h-56 object-cover w-full" alt="project sample" />
+        <img src="./images/cons15.jpg" loading="lazy" className="rounded-2xl h-56 object-cover w-full" alt="project sample" />
+        <img src="./images/office.jpg" loading="lazy" className="rounded-2xl h-56 object-cover w-full" alt="project sample" />
+        <img src="./images/cons16.jpg" loading="lazy" className="rounded-2xl h-56 object-cover w-full" alt="project sample" />
       </div>
     </section>
   )

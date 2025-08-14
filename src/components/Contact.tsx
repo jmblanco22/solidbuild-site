@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
           <button className="btn-primary" type="submit">Submit</button>
         </form>
       </div>
-      <img src="/images/contactme.jpg"/>
+      <img src="./images/contactme.jpg"/>
     </section>
   )
 }

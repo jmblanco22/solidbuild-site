@@ -18,7 +18,7 @@ const About: React.FC = () => {
           <a href="#services" className="btn-secondary">Learn More</a>
         </div>
       </div>
-      <img src="/images/conspic.jpg" alt="Our Team" loading="lazy" className="rounded-2xl w-full h-80 object-cover" />
+      <img src="./images/conspic.jpg" alt="Our Team" loading="lazy" className="rounded-2xl w-full h-80 object-cover" />
     </section>
   )
 }
