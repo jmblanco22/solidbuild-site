@@ -1,5 +1,6 @@
 {
   "name": "solidbuild-site",
+  "homepage": "https://jmblanco22.github.io/solidbuild-site",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -7,23 +8,26 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "clsx": "^2.1.1",
     "lucide-react": "^0.447.0",
-    "clsx": "^2.1.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.7.0",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.41",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.9",
     "typescript": "^5.5.4",
-    "vite": "^5.4.2",
-    "prettier": "^3.3.3"
+    "vite": "^5.4.2"
   }
 }
